@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 st.title("👤 About Me")
 
@@ -6,7 +7,13 @@ st.title("👤 About Me")
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    st.image("portfolio_app/marjun", width=180)
+    # ✅ FIXED IMAGE PATH + SAFE LOADING
+    img_path = "portfolio_app/marjun.jpg"
+
+    if os.path.exists(img_path):
+        st.image(img_path, width=180)
+    else:
+        st.warning("⚠ Image not found")
 
 with col2:
     st.markdown("""
