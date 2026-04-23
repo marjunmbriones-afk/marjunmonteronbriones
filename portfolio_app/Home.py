@@ -7,7 +7,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     # ✅ SAFE IMAGE LOADING
-    if os.path.exists("profile.jpg"):
+    if os.path.exists("marjun.jpg"):
         st.image("marjun.jpg", width=180)
     else:
         st.warning("⚠ profile.jpg not found")
