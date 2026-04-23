@@ -7,7 +7,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     # ✅ FIXED PATH (IMPORTANT)
-    img_path = "portfolio_app/marjun.jpg"
+    img_path = "portfolio_app/jun.jpg"
 
     if os.path.exists(img_path):
         st.image(img_path, width=180)
