@@ -1,11 +1,16 @@
 import streamlit as st
+import os
 
 st.set_page_config(page_title="Home", layout="wide")
 
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    st.image("profile.jpg", width=180)
+    # ✅ SAFE IMAGE LOADING
+    if os.path.exists("profile.jpg"):
+        st.image("profile.jpg", width=180)
+    else:
+        st.warning("⚠ profile.jpg not found")
 
 with col2:
     st.markdown("""
@@ -58,6 +63,7 @@ with col2:
     st.link_button("📘 Facebook", "https://www.facebook.com/marjunmbriones16")
 
 with col3:
-    st.link_button("📧 Email", "marjunmbriones@gmail.com")
+    st.link_button("📧 Email", "mailto:marjunmbriones@gmail.com")
 
+st.markdown("---")
 st.markdown("---")
