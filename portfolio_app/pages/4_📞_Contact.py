@@ -1,9 +1,14 @@
 import streamlit as st
+import os
 
 st.title("📞 Contact Me")
 
-# 🔹 IMAGE SECTION (ADDED)
-st.image("profile.jpg", width=200)
+  img_path = "portfolio_app/marjun.jpg"
+
+    if os.path.exists(img_path):
+        st.image(img_path, width=180)
+    else:
+        st.warning("⚠ Image not found")
 
 st.markdown("""
 ### 💬 Let's Connect
