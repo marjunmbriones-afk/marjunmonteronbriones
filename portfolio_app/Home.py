@@ -6,11 +6,13 @@ st.set_page_config(page_title="Home", layout="wide")
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    # ✅ SAFE IMAGE LOADING
-    if os.path.exists("marjun.jpg"):
-        st.image("marjun.jpg", width=180)
+    # ✅ FIXED PATH (IMPORTANT)
+    img_path = "portfolio_app/marjun.jpg"
+
+    if os.path.exists(img_path):
+        st.image(img_path, width=180)
     else:
-        st.warning("⚠ profile.jpg not found")
+        st.warning("⚠ Image not found. Check file path.")
 
 with col2:
     st.markdown("""
