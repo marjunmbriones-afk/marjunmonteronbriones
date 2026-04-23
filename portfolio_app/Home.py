@@ -10,7 +10,7 @@ with col1:
     img_path = "portfolio_app/jun.jpg"
 
     if os.path.exists(img_path):
-        st.image(img_path, width=180)
+        st.image(img_path, width=200)
     else:
         st.warning("⚠ Image not found. Check file path.")
 
