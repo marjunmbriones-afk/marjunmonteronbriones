@@ -3,13 +3,29 @@ import os
 
 st.title("📞 Contact Me")
 
-  img_path = "portfolio_app/marjun.jpg"
+# ================= PROFILE HEADER =================
+col1, col2 = st.columns([1, 2])
+
+with col1:
+    # Image path
+    img_path = "portfolio_app/marjun.jpg"
 
     if os.path.exists(img_path):
         st.image(img_path, width=180)
     else:
         st.warning("⚠ Image not found")
 
+with col2:
+    st.markdown("""
+    ## 👋 Hello, I'm Marjun M. Briones  
+    🎓 3rd Year Computer Science Student  
+    🏫 DEBESMSCAT  
+    💻 Aspiring Developer | 🎨 UI/UX Enthusiast | 🚀 Future Full Stack Developer  
+    """)
+
+st.markdown("---")
+
+# ================= INTRO =================
 st.markdown("""
 ### 💬 Let's Connect
 If you have any questions, project ideas, or collaboration offers,
@@ -18,6 +34,7 @@ feel free to reach out.
 
 st.markdown("---")
 
+# ================= CONTACT STYLE =================
 st.markdown(
     """
     <style>
@@ -32,9 +49,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# ================= CONTACT SECTION =================
 col1, col2 = st.columns(2)
 
-# ================= CONTACT FORM =================
+# -------- CONTACT FORM --------
 with col1:
     st.markdown("## 💬 Send a Message")
 
@@ -52,7 +70,7 @@ with col1:
             else:
                 st.error("⚠ Please complete all fields.")
 
-# ================= CONTACT INFO =================
+# -------- CONTACT INFO --------
 with col2:
     st.markdown("## 📌 Contact Info")
 
@@ -70,7 +88,7 @@ with col2:
 
 st.markdown("---")
 
-# 🔹 FOOTER
+# ================= FOOTER =================
 st.markdown(
     """
     <div style="text-align:center; color:gray;">
@@ -78,4 +96,5 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True
+)
 )
