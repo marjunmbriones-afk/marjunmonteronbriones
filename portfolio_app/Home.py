@@ -6,7 +6,6 @@ st.set_page_config(page_title="Home", layout="wide")
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    # ✅ FIXED PATH (IMPORTANT)
     img_path = "portfolio_app/jun.jpg"
 
     if os.path.exists(img_path):
