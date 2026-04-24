@@ -12,31 +12,26 @@ The app serves as a digital resume where visitors can explore my background and 
 
 ## ✨ Features
 
-### 🏠 Home
+* 🏠 **Home**
 
-Provides a welcoming introduction and overview of the portfolio.
+  * Introduction and overview of the portfolio
 
-### 👤 About
+* 👤 **About**
 
-Displays personal background, information, and profile details.
+  * Personal background and profile information
 
-### 🛠 Skills
+* 🛠 **Skills**
 
-Highlights technical skills, tools, and areas of expertise.
+  * Technical skills and tools
 
-### 📂 Projects
+* 📂 **Projects**
 
-Showcases completed projects and works with descriptions.
+  * Showcase of completed works
 
-### 📞 Contact
+* 📞 **Contact**
 
-Offers ways to get in touch, including social links or email.
+  * Ways to reach and connect
 
-### 🖼 Image Integration
-
-Enhances the interface with personalized images and visuals.
-
-## 🗂 Project Structure
 
 ```bash
 portfolio_app/
