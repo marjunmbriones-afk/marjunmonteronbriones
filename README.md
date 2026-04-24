@@ -38,16 +38,19 @@ Enhances the interface with personalized images and visuals.
 
 ## 🗂 Project Structure
 
+```bash
 portfolio_app/
-│── Home.py
-│── pages/
+├── Home.py
+├── pages/
 │   ├── 1_👤_About.py
 │   ├── 2_🛠_Skills.py
 │   ├── 3_📂_Projects.py
 │   └── 4_📞_Contact.py
-│── jun.jpg
-│── junning.jpg
-│── profile.jpg
+├── jun.jpg
+├── junning.jpg
+├── profile.jpg
+└── README.md
+```
 
 ## 🚀 Technologies Used
 
