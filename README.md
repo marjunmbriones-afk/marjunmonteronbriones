@@ -12,12 +12,29 @@ The app serves as a digital resume where visitors can explore my background and 
 
 ## ✨ Features
 
-🏠 Home Page – Introduction and welcome section
-👤 About Page – Personal background and information
-🛠 Skills Page– Displays technical skills and tools
-📂 Projects Page– Showcases my projects and works
-📞 Contact Page – Provides ways to reach me
-🖼 Image Integration – Personalized visuals using images
+### 🏠 Home
+
+Provides a welcoming introduction and overview of the portfolio.
+
+### 👤 About
+
+Displays personal background, information, and profile details.
+
+### 🛠 Skills
+
+Highlights technical skills, tools, and areas of expertise.
+
+### 📂 Projects
+
+Showcases completed projects and works with descriptions.
+
+### 📞 Contact
+
+Offers ways to get in touch, including social links or email.
+
+### 🖼 Image Integration
+
+Enhances the interface with personalized images and visuals.
 
 ## 🗂 Project Structure
 
