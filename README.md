@@ -41,7 +41,7 @@ portfolio_app/
 ## 👤 Author
 
 Marjun M. Briones
-GitHub: https://github.com/marjunmbriones
+
 
 
 ## 📬 Contact
